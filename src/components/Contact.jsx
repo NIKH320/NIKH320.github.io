@@ -26,6 +26,18 @@ function Contact() {
         </a>
       </p>
 
+      <p>
+        Resume:
+           <a 
+           href="/Resume_NikhilDamahe_SDE.pdf"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="text-blue-600 hover:underline"
+          >
+  Download Resume
+</a>
+      </p>
+
 
 </div>
       
