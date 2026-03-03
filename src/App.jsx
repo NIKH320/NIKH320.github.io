@@ -1,5 +1,6 @@
 import About from './components/About'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Publication from './components/Publication'
@@ -9,12 +10,12 @@ function App()
 {
    return(
      <>
-     <div className="bg-slate-50 min-h-screen">
+     <div className=" min-h-screen">
 
        <Navbar/>
        <About/>
-       <Skills/>
        <Projects/>
+       <Skills/>
        <Publication/>
        <Contact/>
        <Footer />

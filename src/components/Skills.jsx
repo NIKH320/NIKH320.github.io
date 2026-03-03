@@ -15,8 +15,8 @@ function Skills() {
   ]
 
   return (
-    <section id="skills" className="bg-white max-w-5xl mx-auto my-12 p-10 rounded-2xl shadow-lg border border-gray-100">
-      <h2 className="text-3xl font-bold mb-8 text-slate-800">Skills</h2>
+    <section id="skills" className="bg-white max-w-5xl mx-auto my-12 p-10 rounded-2xl shadow-lg border border-black/20">
+      <h2 className="text-3xl font-bold mb-8 text-slate-900 mb-6">Skills</h2>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {skills.map((skill, index) => (
