@@ -2,7 +2,7 @@ function About(){
 
     return(
 
-        <section id="about" className="pt-28 px-8 max-w-4xl mx-auto">
+        <section id="about" className="bg-white max-w-5xl mx-auto mt-32 mb-12 p-10 rounded-2xl shadow-lg border border-gray-100">
 
             <h2 className="text-3xl font-bold mb-4 text-slate-800">About me</h2>
             <p  className="text-gray-600 leading-relaxed">

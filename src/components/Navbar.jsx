@@ -1,45 +1,23 @@
-function Navbar(){
+function Navbar() {
+  return (
+    <nav className="fixed top-0 left-0 w-full bg-slate-900 text-white shadow-md z-50">
+      
+      <div className="max-w-6xl mx-auto flex justify-between items-center px-8 py-6">
 
-    return(
+        <h1 className="text-2xl font-semibold tracking-wide">
+          Nikhil Damahe
+        </h1>
 
-        <nav style={styles.nav}>
-            <h2 style={styles.logo}>Nikhil Damahe</h2>
-            <div>
-                <a href="#about" style={styles.link}>About</a>
-                  <a href="#skills" style={styles.link}>Skills</a>
-                  <a href="#projects" style={styles.link}>Projects</a>
-                  <a href="#contact" style={styles.link}>Contact</a>
+        <div className="space-x-8 text-lg">
+          <a href="#about" className="hover:text-blue-400 transition">About</a>
+          <a href="#skills" className="hover:text-blue-400 transition">Skills</a>
+          <a href="#projects" className="hover:text-blue-400 transition">Projects</a>
+          <a href="#contact" className="hover:text-blue-400 transition">Contact</a>
+        </div>
 
-            </div>
-        </nav>
-    )
+      </div>
+    </nav>
+  )
 }
-
-const styles = {
-  nav: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "20px 40px",
-    backgroundColor: "#0f172a",
-    color: "white",
-    position: "fixed",
-    width: "100%",
-    top: 0,
-    left: 0,
-    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-    zIndex: 1000
-    
-  },
-  link: {
-    marginLeft: "20px",
-    color: "white",
-    textDecoration: "none"
-  },
-  logo: {
-    margin: 0
-  }
-}
-
 
 export default Navbar
