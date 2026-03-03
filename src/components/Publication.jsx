@@ -12,14 +12,24 @@ function Publication(){
       <p className="text-gray-700 leading-relaxed">Analyzed NOMA, RIS, THz communication, and MIMO systems based on SINR, BER, and outage probability metrics to evaluate next-generation wireless network performance.</p>
       
 
-      <p className="text-gray-700 leading-relaxed">
-        Publication Link: 
-        <a href="https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fdoi.org%2F10.1109%2FICEC2NT65402.2025.11379947&urlhash=Zkyi&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BS9OhiJNGR1qxTBKQ4AVYTQ%3D%3D" 
+      {/* <p className="text-gray-700 leading-relaxed">
+    
+        <a href=
            className="text-blue-600 hover:underline ml-2"
          target="_blank">
-          Publication Link: 
+          Publication Link 
         </a>
-      </p>
+      </p> */}
+
+       <a 
+      href="https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fdoi.org%2F10.1109%2FICEC2NT65402.2025.11379947&urlhash=Zkyi&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BS9OhiJNGR1qxTBKQ4AVYTQ%3D%3D"
+      target="_blank"
+      rel= "noopener noreferrer"
+       className="mt-4 inline-block bg-slate-900 text-white px-5 py-2 rounded-md hover:bg-slate-700 transition"
+    >
+
+          Show Publication 
+      </a>
 
      
 

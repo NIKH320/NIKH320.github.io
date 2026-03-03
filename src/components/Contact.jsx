@@ -26,17 +26,21 @@ function Contact() {
         </a>
       </p>
 
+      
       <p className="text-gray-700 leading-relaxed">
-        Resume:
-           <a 
-           href="/Resume_NikhilDamahe_SDE.pdf"
-           target="_blank"
-           rel="noopener noreferrer"
-           className="text-blue-600 hover:underline"
-          >
-  Download Resume
-</a>
+        Resume: 
+        <a 
+          href="/Resume_NikhilDamahe_SDE.pdf"
+           className="text-blue-600 hover:underline ml-2"
+         target="_blank">
+          Download
+        </a>
       </p>
+
+
+       
+           
+      
 
 
 </div>
