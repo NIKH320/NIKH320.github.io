@@ -5,29 +5,38 @@ import ProjectCard from './ProjectCard'
 function Projects(){
 
     const projects = [
-        {title:"UIDAI Biometric Surge Risk Analysis",
-         techstack: "TechStack:Pandas, NumPy,Matplotlib",
-          description : "Processed and integrated 4.5M+ Aadhaar records from & datasets provided by the Government of India & created a preprocessing pipeline for data cleaning and normalization. weighted Risk Scoring Framework to pinpoint areas of operational stress for seasonal biometric surges. ",
-          repo: " https://github.com/NIKH320/UIDAI-Biometric-Surge-Risk-Analysis-Nikhil/tree/main"
+        {
+        title:"UIDAI Biometric Surge Risk Analysis ",
+         techstack: ["Pandas", "NumPy","Matplotlib","Data Analysis"],
+          description : [
+                  " Processed 4.5M+ Aadhaar biometric records provided by Government of India(UIDAI) to identify anomalies, trends and surge patterns.",
+                  " Built district-level risk scoring model based on volatility, concentration, and load metrics.",
+                  "Aggregated large CSV datasets using Pandas groupby pipelines.Visualized national biometric update trends using Matplotlib "],
+
+          repo: "https://github.com/NIKH320/UIDAI-Biometric-Surge-Risk-Analysis-Nikhil/tree/main"
         },
         {
             title: "Zero Trust BYOD Platform",
-            techstack: "Tech Stack: Python, Scikit-learn, Node.js, React.js, ML-based Anomaly Detection",
-             description :"Designed a Zero Trust-based BYOD security platform that gives employees an encrypted, isolated workspace while keeping their personal device privacy intact.Implemented device compliance checks, Role-based access control (RBAC), and secure virtual drive management.",
-             repo:" https://github.com/NIKH320/Cyber"
+            techstack: [" Python","Scikit-learn", "Node.js", "React.js", "Isolation Forest"],
+             description :["Designed a Zero Trust-based BYOD security platform that gives employees an encrypted, isolated workspace while keeping their personal device privacy intact.",
+                "Implemented device compliance checks, Role-based access control (RBAC), and secure virtual drive management."],
+             repo:"https://github.com/NIKH320/Cyber"
             },
 
         {
            title: "Fake Social Media Account Detection System",
-            techstack: "Tech Stack: Python, Scikit-learn, Random Forest,Streamlit",
-             description :"Completed a project to aid the detection of fraud and deception in social media platform usage as part of a social-engineering attack.",
-              repo: " https://github.com/NIKH320/fake-account-detector"
+            techstack: [" Python","Scikit-learn", "Random Forest","Streamlit"],
+             description :["Completed a project to aid the detection of fraud and deception in social media platform usage as part of a social-engineering attack.",
+                           "Trained a Random Forest classifier on labeled accounts using behavioral and text-based features. "],
+              repo: "https://github.com/NIKH320/fake-account-detector"
         },
         {
             title: "Flight Insurance Smart Contract",
-            techstack:"Tech Stack: Solidity, Remix IDE, Filecoin, Smart Contracts, Blockchain ",
-            description: "Deployed Solidity contract implementing escrow payout logic.",
-            repo: " https://github.com/NIKH320/flight-insurance-dapp"
+            techstack:["Solidity","Remix IDE", "Filecoin", "Smart Contracts"],
+            description: ["Deployed Solidity contract implementing escrow payout logic.",
+                          "Decentralized storage integrated on Filecoin for Policy documents and claim-related records for transparency."
+            ],
+            repo: "https://github.com/NIKH320/flight-insurance-dapp"
         }
     ]
 

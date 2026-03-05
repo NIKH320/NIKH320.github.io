@@ -8,14 +8,14 @@ function Contact() {
       <p className="text-gray-700 leading-relaxed">Email: nikhildamahe26@gmail.com</p>
       <p className="text-gray-700 leading-relaxed">Phone: 9021927520</p>
 
-      <p className="text-gray-700 leading-relaxed">
+      {/* <p className="text-gray-700 leading-relaxed">
         GitHub: 
         <a href="https://github.com/NIKH320"
            className="text-blue-600 hover:underline ml-2"
            target="_blank">
           github.com/NIKH320
         </a>
-      </p>
+      </p> */}
 
       <p className="text-gray-700 leading-relaxed">
         LinkedIn: 
