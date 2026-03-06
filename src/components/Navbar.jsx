@@ -4,11 +4,11 @@ function Navbar() {
       
       <div className="max-w-6xl mx-auto flex justify-between items-center px-8 py-6">
 
-        <h1 className="text-2xl font-semibold tracking-wide">
+        <h1 className="text-lg md:text-2xl font-semibold whitespace-nowrap tracking-wide">
           Nikhil Damahe
         </h1>
 
-        <div className="space-x-8 text-lg">
+        <div className="flex gap-4 md:gap-8 text-sm md:text-lg">
           <a href="#about" className="hover:text-blue-400 transition">About</a>
           <a href="#skills" className="hover:text-blue-400 transition">Skills</a>
           <a href="#projects" className="hover:text-blue-400 transition">Projects</a>

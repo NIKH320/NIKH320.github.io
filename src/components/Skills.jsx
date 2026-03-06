@@ -33,10 +33,13 @@ function Skills() {
         {skills.map((skill, index) => (
           <div 
             key={index}
-            className="text-xl flex items-center justify-center gap-3 bg-white p-4 rounded-lg shadow-sm border border-black/10  hover:shadow-md hover:-translate-y-1 transition"
+            className="text-xl flex items-center justify-center gap-3 bg-white p-4 rounded-lg shadow-sm border border-black/10  text-center flex-wrap hover:shadow-md hover:-translate-y-1 transition"
           >
+            
             {skill.icon}
-            <span>{skill.name}</span>
+            <span className="text-sm md:text-base text-center">
+              {skill.name}
+            </span>
           </div>
         ))}
       </div>
