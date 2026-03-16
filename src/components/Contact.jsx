@@ -30,7 +30,7 @@ function Contact() {
       <p className="text-gray-700 leading-relaxed">
         Resume: 
         <a 
-          href="/Resume_NikhilDamahe_SDE.pdf"
+          href="/Resume_NikhilDamahe.pdf"
            className="text-blue-600 hover:underline ml-2"
          target="_blank">
           Download
